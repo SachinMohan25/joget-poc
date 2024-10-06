@@ -4,12 +4,16 @@
         {
             "className": "org.joget.apps.userview.lib.component.ButtonComponent",
             "properties": {
-                "attr-data-events-listening": [],
+                "attr-data-events-listening": [{
+                    "eventObject": "",
+                    "name": "POC1_UR_Evt1",
+                    "action": "hide"
+                }],
                 "attr-target": "_blank",
                 "css-display-type": "btn btn-primary",
+                "attr-onclick": "#request.baseURL#/web/userview/POC1_UR/POC1_UR_UserRegistration_UI1/_/POC1_UR_Menu1",
                 "textContent": "Register Yourself",
                 "id": "F7825DFCE0E54B58C57447F1B0D9E96F",
-                "attr-href": "http://google.com",
                 "customId": "POC1_UR_registerurself1"
             }
         },
