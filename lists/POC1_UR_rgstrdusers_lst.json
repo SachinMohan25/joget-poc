@@ -13,10 +13,12 @@
     "name": "Registered Users List",
     "id": "POC1_UR_rgstrdusers_lst",
     "binder": {
-        "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
+        "className": "org.joget.apps.datalist.lib.BeanShellDatalistBinder",
         "properties": {
-            "formDefId": "POC1_UR_RegistrationPage",
-            "extraCondition": ""
+            "getDataScript": "#form.poc1_ur_regdusr.POC1_UR_rgstrtnpg_fullName# #form.poc1_ur_regdusr.POC1_UR_rgstrtnpg_username#",
+            "getTotalScript": "10",
+            "getColumnScript": "#form.poc1_ur_regdusr.POC1_UR_rgstrtnpg_fullName# #form.poc1_ur_regdusr.POC1_UR_rgstrtnpg_username#",
+            "primaryKey": "id"
         }
     },
     "actions": [],
