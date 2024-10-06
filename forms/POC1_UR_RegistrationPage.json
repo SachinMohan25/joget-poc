@@ -1,0 +1,23 @@
+{
+    "elements": [{
+        "elements": [{
+            "elements": [],
+            "className": "org.joget.apps.form.model.Column",
+            "properties": {"width": "100%"}
+        }],
+        "className": "org.joget.apps.form.model.Section",
+        "properties": {
+            "label": "Section",
+            "id": "section1"
+        }
+    }],
+    "className": "org.joget.apps.form.model.Form",
+    "properties": {
+        "loadBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+        "name": "User Registration Page",
+        "description": "This is the User Registration Page",
+        "id": "POC1_UR_RegistrationPage",
+        "storeBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+        "tableName": "poc1_ur_regdusr"
+    }
+}
