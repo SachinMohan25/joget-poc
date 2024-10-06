@@ -1,20 +1,24 @@
 {
+    "template": {
+        "className": "",
+        "properties": {}
+    },
     "rowActions": [],
     "columns": [],
-    "name": "Registered Users List",
     "pageSize": "0",
     "orderBy": "",
     "description": "",
-    "id": "POC1_UR_rgstrdusers_lst",
     "filters": [],
+    "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "name": "Registered Users List",
+    "id": "POC1_UR_rgstrdusers_lst",
     "binder": {
         "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
         "properties": {
-            "formDefId": "POC1_UR_RegistrationPage",
-            "extraCondition": ""
+            "formDefId": "POC1_UR_RgstrdLst",
+            "extraCondition": "#form.poc1_ur_regdusr.POC1_UR_rgstrtnpg_fullName#"
         }
     },
     "actions": [],
-    "pageSizeSelectorOptions": "10,20,30,40,50,100",
     "order": ""
 }
