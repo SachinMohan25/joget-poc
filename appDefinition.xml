@@ -1,0 +1,14 @@
+<appDefinition>
+   <id>POC1_UR</id>
+   <version></version>
+   <name>User Registration Application</name>
+   <packageDefinitionList/>
+   <formDefinitionList/>
+   <userviewDefinitionList/>
+   <datalistDefinitionList/>
+   <builderDefinitionList/>
+   <pluginDefaultPropertiesList/>
+   <environmentVariableList/>
+   <messageList/>
+   <resourceList/>
+</appDefinition>
