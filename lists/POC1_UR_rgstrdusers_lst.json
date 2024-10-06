@@ -16,7 +16,7 @@
         "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
         "properties": {
             "formDefId": "POC1_UR_RgstrdLst",
-            "extraCondition": "#form.poc1_ur_regdusr.POC1_UR_rgstrtnpg_fullName#"
+            "extraCondition": "#form.poc1_ur_regdusr.POC1_UR_rgstrtnpg_fullName# <> ''"
         }
     },
     "actions": [],
