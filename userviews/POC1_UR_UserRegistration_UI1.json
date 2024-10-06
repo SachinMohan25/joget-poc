@@ -1,24 +1,40 @@
 {
     "className": "org.joget.apps.userview.model.Userview",
-    "categories": [{
-        "className": "org.joget.apps.userview.model.UserviewCategory",
-        "menus": [{
-            "className": "org.joget.apps.userview.lib.HtmlPage",
+    "categories": [
+        {
+            "className": "org.joget.apps.userview.model.UserviewCategory",
+            "menus": [{
+                "className": "org.joget.apps.userview.lib.HtmlPage",
+                "properties": {
+                    "userviewCacheDuration": "",
+                    "userviewCacheScope": "",
+                    "id": "4421997e-d606-429d-a72c-0cb4289271d4",
+                    "label": "Welcome to User Registration",
+                    "enableOffline": "",
+                    "customId": "POC1_UR_Menu1",
+                    "content": "<p>Welcome to the User Registration Application. The application simply allows you to register on joget poc app, and shows the list of registerd users.<\/p>"
+                }
+            }],
             "properties": {
-                "userviewCacheDuration": "",
-                "userviewCacheScope": "",
-                "id": "4421997e-d606-429d-a72c-0cb4289271d4",
-                "label": "Welcome to User Registration",
-                "enableOffline": "",
-                "customId": "POC1_UR_Menu1",
-                "content": "<p>Welcome to the User Registration Application. The application simply allows you to register on joget poc app, and shows the list of registerd users.<\/p>"
+                "id": "category-EE74E4F4426241BD9BC3BC73B1D24AC7",
+                "label": "<i class='fa fa-home'><\/i> Home"
             }
-        }],
-        "properties": {
-            "id": "category-EE74E4F4426241BD9BC3BC73B1D24AC7",
-            "label": "<i class='fa fa-home'><\/i> Home"
+        },
+        {
+            "className": "org.joget.apps.userview.model.UserviewCategory",
+            "menus": [],
+            "properties": {
+                "hide": "yes",
+                "permission": {
+                    "className": "org.joget.apps.userview.lib.LoggedInUserPermission",
+                    "properties": {}
+                },
+                "comment": "",
+                "label": "Page Details",
+                "id": "category-069DBFB034E14194D9616E92721096A3"
+            }
         }
-    }],
+    ],
     "properties": {
         "logoutText": "Logout",
         "welcomeMessage": "#date.EEE, d MMM yyyy#",

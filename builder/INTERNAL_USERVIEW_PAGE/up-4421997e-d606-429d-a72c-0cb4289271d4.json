@@ -11,6 +11,27 @@
                 "id": "F7825DFCE0E54B58C57447F1B0D9E96F",
                 "customId": "POC1_UR_registerurself1"
             }
+        },
+        {
+            "className": "org.joget.apps.userview.lib.DataListMenu",
+            "properties": {
+                "cacheAllLinks": "",
+                "customHeader": "",
+                "keyName": "",
+                "customFooter": "",
+                "label": "Users List",
+                "enableOffline": "",
+                "customId": "POC1_UR_UI_Pg2",
+                "buttonPosition": "bothLeft",
+                "datalistId": "POC1_UR_rgstrdusers_lst",
+                "checkboxPosition": "left",
+                "selectionType": "multiple",
+                "userviewCacheDuration": "20",
+                "cacheListAction": "",
+                "userviewCacheScope": "",
+                "rowCount": "",
+                "id": "63C92BB691044359FA5A02DDDFB0C161"
+            }
         }
     ],
     "className": "org.joget.apps.userview.model.UserviewPage",
