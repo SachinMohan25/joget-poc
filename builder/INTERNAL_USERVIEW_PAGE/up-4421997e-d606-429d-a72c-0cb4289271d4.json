@@ -1,0 +1,18 @@
+{
+    "elements": [
+        {"className": "menu-component"},
+        {
+            "className": "org.joget.apps.userview.lib.component.ButtonComponent",
+            "properties": {
+                "attr-data-events-listening": [],
+                "attr-target": "_blank",
+                "css-display-type": "btn btn-primary",
+                "textContent": "Register Yourself",
+                "id": "F7825DFCE0E54B58C57447F1B0D9E96F",
+                "customId": "POC1_UR_registerurself1"
+            }
+        }
+    ],
+    "className": "org.joget.apps.userview.model.UserviewPage",
+    "properties": {"id": "up-4421997e-d606-429d-a72c-0cb4289271d4"}
+}
