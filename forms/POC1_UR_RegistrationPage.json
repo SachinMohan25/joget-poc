@@ -6,14 +6,18 @@
                     "className": "org.joget.apps.form.lib.TextField",
                     "properties": {
                         "requiredSanitize": "",
-                        "maxlength": "",
+                        "maxlength": "50",
                         "validator": {
-                            "className": "",
-                            "properties": {}
+                            "className": "org.joget.apps.form.lib.DefaultValidator",
+                            "properties": {
+                                "type": "alphabet",
+                                "message": "Name allows only alphabet",
+                                "mandatory": "true"
+                            }
                         },
                         "label": "Full Name",
                         "readonly": "",
-                        "size": "",
+                        "size": "30",
                         "workflowVariable": "",
                         "style": "",
                         "id": "POC1_UR_rgstrtnpg_fullName",
@@ -21,29 +25,6 @@
                         "value": "",
                         "readonlyLabel": "",
                         "storeNumeric": ""
-                    }
-                },
-                {
-                    "className": "org.joget.apps.form.lib.SelectBox",
-                    "properties": {
-                        "controlField": "",
-                        "readonly": "",
-                        "size": "",
-                        "optionsBinder": {
-                            "className": "",
-                            "properties": {}
-                        },
-                        "multiple": "",
-                        "options": [],
-                        "validator": {
-                            "className": "",
-                            "properties": {}
-                        },
-                        "workflowVariable": "",
-                        "label": "Gender",
-                        "id": "POC1_UR_rgstrtnpg_gender",
-                        "value": "",
-                        "readonlyLabel": ""
                     }
                 },
                 {
@@ -71,7 +52,7 @@
                         "id": "POC1_UR_rgstrtnpg_dob",
                         "placeholder": "",
                         "disableWeekends": "",
-                        "value": "",
+                        "value": "c#platform.currentDateFormat#yyyy-MM-dd",
                         "readonlyLabel": ""
                     }
                 },
@@ -90,7 +71,7 @@
                         },
                         "label": "Username",
                         "readonly": "",
-                        "size": "",
+                        "size": "30",
                         "workflowVariable": "",
                         "style": "",
                         "id": "POC1_UR_rgstrtnpg_username",
@@ -98,6 +79,44 @@
                         "value": "",
                         "readonlyLabel": "",
                         "storeNumeric": ""
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.Radio",
+                    "properties": {
+                        "fullWidth": "true",
+                        "controlField": "",
+                        "readonly": "",
+                        "optionsBinder": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "options": [
+                            {
+                                "label": "Male",
+                                "value": "M",
+                                "grouping": "Gender"
+                            },
+                            {
+                                "label": "Female",
+                                "value": "F",
+                                "grouping": "Gender"
+                            },
+                            {
+                                "label": "Not Listed",
+                                "value": "N",
+                                "grouping": "Gender"
+                            }
+                        ],
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        },
+                        "workflowVariable": "",
+                        "label": "Gender",
+                        "id": "POC1_UR_rgstrtnpg_gender",
+                        "value": "",
+                        "readonlyLabel": ""
                     }
                 },
                 {
