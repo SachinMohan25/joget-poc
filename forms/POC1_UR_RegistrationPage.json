@@ -32,7 +32,7 @@
                     "properties": {
                         "yearRange": "c-20",
                         "dataFormat": "yyyy-MM-dd",
-                        "startDateFieldId": "",
+                        "startDateFieldId": "POC1_UR_rgstrtnpg_dob",
                         "validator": {
                             "className": "org.joget.apps.form.lib.DefaultValidator",
                             "properties": {
@@ -44,7 +44,7 @@
                         "format": "",
                         "label": "Birth Date",
                         "datePickerType": "",
-                        "currentDateAs": "",
+                        "currentDateAs": "maxDate",
                         "endDateFieldId": "",
                         "readonly": "",
                         "allowManual": "",
