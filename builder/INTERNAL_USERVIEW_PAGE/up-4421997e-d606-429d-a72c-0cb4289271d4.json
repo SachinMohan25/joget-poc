@@ -9,6 +9,7 @@
                 "css-display-type": "btn btn-primary",
                 "textContent": "Register Yourself",
                 "id": "F7825DFCE0E54B58C57447F1B0D9E96F",
+                "attr-href": "http://google.com",
                 "customId": "POC1_UR_registerurself1"
             }
         },
