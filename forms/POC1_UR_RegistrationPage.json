@@ -52,7 +52,7 @@
                         "id": "POC1_UR_rgstrtnpg_dob",
                         "placeholder": "",
                         "disableWeekends": "",
-                        "value": "c#platform.currentDateFormat#yyyy-MM-dd",
+                        "value": "",
                         "readonlyLabel": ""
                     }
                 },
