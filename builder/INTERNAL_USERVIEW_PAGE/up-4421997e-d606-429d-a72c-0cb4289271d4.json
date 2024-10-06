@@ -37,6 +37,38 @@
                 "rowCount": "",
                 "id": "63C92BB691044359FA5A02DDDFB0C161"
             }
+        },
+        {
+            "className": "org.joget.apps.userview.lib.FormMenu",
+            "properties": {
+                "loadDataWithKey": "",
+                "redirectUrlOnCancel": "",
+                "actionOnCancel": "",
+                "redirectTargetOnCancel": "top",
+                "customFooter": "",
+                "paramName": "",
+                "enableOffline": "",
+                "afterSavedReloadTarget": "true",
+                "customId": "POC1_UR_Menu1",
+                "showInPopupDialog": "",
+                "readonly": "",
+                "cancelButtonLabel": "",
+                "actionAfterSaved": "",
+                "id": "1D8BE63A859942DA8A48FDF6703667FA",
+                "redirectUrlAfterComplete": "",
+                "fieldPassover": "",
+                "formId": "POC1_UR_RegistrationPage",
+                "customHeader": "",
+                "fieldPassoverMethod": "append",
+                "redirectTargetOnComplete": "",
+                "keyName": "",
+                "label": "Registration Page",
+                "userviewCacheDuration": "20",
+                "messageShowAfterComplete": "",
+                "submitButtonLabel": "",
+                "userviewCacheScope": "",
+                "readonlyLabel": "true"
+            }
         }
     ],
     "className": "org.joget.apps.userview.model.UserviewPage",
