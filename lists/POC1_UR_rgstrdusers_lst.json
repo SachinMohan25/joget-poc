@@ -4,7 +4,40 @@
         "properties": {}
     },
     "rowActions": [],
-    "columns": [],
+    "columns": [
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "POC1_UR_rgstrtnpg_fullName",
+            "id": "column_0",
+            "label": "Full Name",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "POC1_UR_rgstrtnpg_username",
+            "id": "column_1",
+            "label": "Username",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "modifiedByName",
+            "id": "column_2",
+            "label": "Modified By Name",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "dateCreated",
+            "id": "column_3",
+            "label": "Date Created",
+            "sortable": "false"
+        }
+    ],
     "pageSize": "0",
     "orderBy": "",
     "description": "",
