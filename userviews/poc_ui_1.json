@@ -1,61 +1,69 @@
 {
     "className": "org.joget.apps.userview.model.Userview",
-    "categories": [{
-        "className": "org.joget.apps.userview.model.UserviewCategory",
-        "menus": [
-            {
-                "className": "org.joget.apps.userview.lib.HtmlPage",
+    "categories": [
+        {
+            "className": "org.joget.apps.userview.model.UserviewCategory",
+            "menus": [{
+                "className": "org.joget.apps.userview.lib.RunProcess",
                 "properties": {
-                    "attr-data-events-listening": [],
-                    "userviewCacheDuration": "",
-                    "userviewCacheScope": "",
-                    "attr-data-ajax-component": "true",
-                    "id": "aaafb8eb-1eca-469d-8d51-880007d1a48d",
-                    "label": "Welcome",
-                    "enableOffline": "",
-                    "attr-data-events-triggering": [],
-                    "customId": "welcome",
-                    "content": "<p style=\"text-align: center;\">Welcome to the Registration Application<\/p>"
-                }
-            },
-            {
-                "className": "org.joget.apps.userview.lib.FormMenu",
-                "properties": {
-                    "loadDataWithKey": "",
-                    "redirectUrlOnCancel": "",
-                    "actionOnCancel": "",
-                    "redirectTargetOnCancel": "top",
-                    "customFooter": "",
-                    "paramName": "",
+                    "runProcessDirectly": "Yes",
+                    "fieldPassoverMethod": "append",
+                    "keyName": "",
+                    "label": "Register User",
+                    "redirectTarget": "",
                     "enableOffline": "",
                     "afterSavedReloadTarget": "true",
-                    "customId": "registerd_users",
-                    "showInPopupDialog": "",
-                    "readonly": "",
-                    "cancelButtonLabel": "",
-                    "actionAfterSaved": "",
-                    "id": "45C4ADBE818449A725B9CDBF056BC5DE",
-                    "redirectUrlAfterComplete": "",
-                    "fieldPassover": "",
-                    "formId": "POC1_UR_RgstrdLst",
-                    "customHeader": "",
-                    "fieldPassoverMethod": "append",
-                    "redirectTargetOnComplete": "",
-                    "keyName": "",
-                    "label": "Registerd Users",
+                    "customId": "register_user",
                     "userviewCacheDuration": "20",
                     "messageShowAfterComplete": "",
-                    "submitButtonLabel": "",
+                    "showInPopupDialog": "",
                     "userviewCacheScope": "",
-                    "readonlyLabel": "true"
+                    "actionAfterSaved": "",
+                    "runProcessSubmitLabel": "Register",
+                    "id": "A3E3F58644234C0FCF3CDCAD2AA839DE",
+                    "processDefId": "userRegistrationProcess",
+                    "redirectUrlAfterComplete": "",
+                    "fieldPassover": ""
                 }
+            }],
+            "properties": {
+                "hide": "",
+                "permission": {
+                    "className": "org.joget.plugin.enterprise.AnonymousUserviewPermission",
+                    "properties": {}
+                },
+                "comment": "",
+                "id": "category-EE74E4F4426241BD9BC3BC73B1D24AC7",
+                "label": "<i class=\"fa fa-home\"><\/i> User Registration"
             }
-        ],
-        "properties": {
-            "id": "category-EE74E4F4426241BD9BC3BC73B1D24AC7",
-            "label": "<i class='fa fa-home'><\/i> Home"
+        },
+        {
+            "className": "org.joget.apps.userview.model.UserviewCategory",
+            "menus": [{
+                "className": "org.joget.apps.userview.lib.InboxMenu",
+                "properties": {
+                    "appFilter": "all",
+                    "userviewCacheDuration": "20",
+                    "userviewCacheScope": "",
+                    "showPopup": "false",
+                    "label": "Inbox",
+                    "rowCount": "false",
+                    "id": "80BA5FB601CD4F9C5F3C7D730C2D9ADD",
+                    "buttonPosition": "bothLeft"
+                }
+            }],
+            "properties": {
+                "hide": "",
+                "permission": {
+                    "className": "org.joget.plugin.enterprise.AdminUserviewPermission",
+                    "properties": {}
+                },
+                "comment": "",
+                "label": "Registered Users",
+                "id": "category-D02F0C671FCF4FB996F27D92F69639A7"
+            }
         }
-    }],
+    ],
     "properties": {
         "logoutText": "Logout",
         "welcomeMessage": "#date.EEE, d MMM yyyy#",
