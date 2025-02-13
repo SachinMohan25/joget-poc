@@ -2,21 +2,37 @@
     "className": "org.joget.apps.userview.model.Userview",
     "categories": [{
         "className": "org.joget.apps.userview.model.UserviewCategory",
-        "menus": [{
-            "className": "org.joget.apps.userview.lib.HtmlPage",
-            "properties": {
-                "attr-data-events-listening": [],
-                "userviewCacheDuration": "",
-                "userviewCacheScope": "",
-                "attr-data-ajax-component": "true",
-                "id": "aaafb8eb-1eca-469d-8d51-880007d1a48d",
-                "label": "Welcome",
-                "enableOffline": "",
-                "attr-data-events-triggering": [],
-                "customId": "welcome",
-                "content": "<p style=\"text-align: center;\">Welcome to the Registration Application<\/p>"
+        "menus": [
+            {
+                "className": "org.joget.apps.userview.lib.HtmlPage",
+                "properties": {
+                    "attr-data-events-listening": [],
+                    "userviewCacheDuration": "",
+                    "userviewCacheScope": "",
+                    "attr-data-ajax-component": "true",
+                    "id": "aaafb8eb-1eca-469d-8d51-880007d1a48d",
+                    "label": "Welcome",
+                    "enableOffline": "",
+                    "attr-data-events-triggering": [],
+                    "customId": "welcome",
+                    "content": "<p style=\"text-align: center;\">Welcome to the Registration Application<\/p>"
+                }
+            },
+            {
+                "className": "org.joget.apps.userview.lib.Link",
+                "properties": {
+                    "userviewCacheDuration": "20",
+                    "userviewCacheScope": "",
+                    "label": "RegisterUser",
+                    "id": "E460D4A9D36D467ABB3AC41AC15AA271",
+                    "enableOffline": "",
+                    "type": "",
+                    "customId": "registeruser",
+                    "url": "registration",
+                    "target": "self"
+                }
             }
-        }],
+        ],
         "properties": {
             "id": "category-EE74E4F4426241BD9BC3BC73B1D24AC7",
             "label": "<i class='fa fa-home'><\/i> Home"
