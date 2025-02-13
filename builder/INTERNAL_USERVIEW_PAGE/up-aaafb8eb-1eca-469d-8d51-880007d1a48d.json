@@ -1,17 +1,5 @@
 {
     "elements": [
-        {"className": "menu-component"},
-        {
-            "className": "org.joget.apps.userview.lib.component.ButtonComponent",
-            "properties": {
-                "attr-data-events-listening": [],
-                "style-background-color": "#E47272",
-                "css-display-type": "btn btn-primary",
-                "textContent": "Register Yourself",
-                "id": "8CC50404121748629A36C7938862757D",
-                "customId": "register_yourself"
-            }
-        },
         {
             "className": "org.joget.apps.userview.lib.RunProcess",
             "properties": {
@@ -25,7 +13,7 @@
                 "customId": "startregistration",
                 "userviewCacheDuration": "20",
                 "messageShowAfterComplete": "",
-                "showInPopupDialog": "",
+                "showInPopupDialog": "Yes",
                 "userviewCacheScope": "",
                 "actionAfterSaved": "",
                 "runProcessSubmitLabel": "Submit",
@@ -34,7 +22,8 @@
                 "redirectUrlAfterComplete": "",
                 "fieldPassover": ""
             }
-        }
+        },
+        {"className": "menu-component"}
     ],
     "className": "org.joget.apps.userview.model.UserviewPage",
     "properties": {"id": "up-aaafb8eb-1eca-469d-8d51-880007d1a48d"}
