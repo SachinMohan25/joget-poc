@@ -1,0 +1,30 @@
+{
+    "elements": [
+        {"className": "menu-component"},
+        {
+            "className": "org.joget.apps.userview.lib.RunProcess",
+            "properties": {
+                "runProcessDirectly": "Yes",
+                "fieldPassoverMethod": "append",
+                "keyName": "",
+                "label": "User Registration",
+                "redirectTarget": "",
+                "enableOffline": "",
+                "afterSavedReloadTarget": "true",
+                "customId": "user_registration",
+                "userviewCacheDuration": "20",
+                "messageShowAfterComplete": "",
+                "showInPopupDialog": "",
+                "userviewCacheScope": "",
+                "actionAfterSaved": "",
+                "runProcessSubmitLabel": "",
+                "id": "29D5E5FF8F684120770365FB151A3A9F",
+                "processDefId": "userRegistrationProcess",
+                "redirectUrlAfterComplete": "",
+                "fieldPassover": ""
+            }
+        }
+    ],
+    "className": "org.joget.apps.userview.model.UserviewPage",
+    "properties": {"id": "up-aaafb8eb-1eca-469d-8d51-880007d1a48d"}
+}
