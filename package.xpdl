@@ -18,7 +18,7 @@
         <Application Id="default_application"/>
     </Applications>
     <WorkflowProcesses>
-        <WorkflowProcess Id="process1" Name="Process 1">
+        <WorkflowProcess Id="userRegistrationProcess" Name="User Registration Process">
             <ProcessHeader DurationUnit="h"/>
             <DataFields>
                 <DataField Id="status" IsArray="FALSE">
