@@ -11,6 +11,29 @@
                 "id": "8CC50404121748629A36C7938862757D",
                 "customId": "register_yourself"
             }
+        },
+        {
+            "className": "org.joget.apps.userview.lib.RunProcess",
+            "properties": {
+                "runProcessDirectly": "",
+                "fieldPassoverMethod": "append",
+                "keyName": "",
+                "label": "startRegistration",
+                "redirectTarget": "",
+                "enableOffline": "",
+                "afterSavedReloadTarget": "true",
+                "customId": "startregistration",
+                "userviewCacheDuration": "20",
+                "messageShowAfterComplete": "",
+                "showInPopupDialog": "",
+                "userviewCacheScope": "",
+                "actionAfterSaved": "",
+                "runProcessSubmitLabel": "Submit",
+                "id": "164D8349BFF646DDE78928ACDAACBD69",
+                "processDefId": "userRegistrationProcess",
+                "redirectUrlAfterComplete": "",
+                "fieldPassover": ""
+            }
         }
     ],
     "className": "org.joget.apps.userview.model.UserviewPage",
