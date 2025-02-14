@@ -1,0 +1,62 @@
+{
+    "elements": [{
+        "elements": [{
+            "elements": [{
+                "className": "org.joget.apps.form.lib.TextArea",
+                "properties": {
+                    "requiredSanitize": "",
+                    "readonly": "",
+                    "validator": {
+                        "className": "",
+                        "properties": {}
+                    },
+                    "workflowVariable": "",
+                    "label": "Remarks",
+                    "id": "remarks",
+                    "placeholder": "",
+                    "rows": "5",
+                    "cols": "20",
+                    "value": "",
+                    "readonlyLabel": ""
+                }
+            }],
+            "className": "org.joget.apps.form.model.Column",
+            "properties": {"width": "100%"}
+        }],
+        "className": "org.joget.apps.form.model.Section",
+        "properties": {
+            "visibilityControl": "",
+            "permissionReadonly": "",
+            "permission": {
+                "className": "",
+                "properties": {}
+            },
+            "label": "Approval Remarks",
+            "reverse": "",
+            "storeBinder": {
+                "className": "",
+                "properties": {}
+            },
+            "visibilityValue": "",
+            "regex": "",
+            "readonly": "",
+            "loadBinder": {
+                "className": "org.joget.apps.form.lib.WorkflowFormBinder",
+                "properties": {}
+            },
+            "comment": "",
+            "id": "approval_remarks",
+            "join": "",
+            "readonlyLabel": ""
+        }
+    }],
+    "className": "org.joget.apps.form.model.Form",
+    "properties": {
+        "loadBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+        "name": "poc1_ur_approveregistration",
+        "description": "",
+        "id": "POC1_UR_ApproveRegistraiton",
+        "storeBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+        "tableName": "poc1_ur_regdusr"
+    }
+}
