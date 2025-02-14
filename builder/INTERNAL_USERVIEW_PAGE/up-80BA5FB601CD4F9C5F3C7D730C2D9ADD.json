@@ -1,5 +1,16 @@
 {
-    "elements": [{"className": "menu-component"}],
+    "elements": [
+        {
+            "className": "org.joget.apps.userview.lib.component.ParagraphComponent",
+            "properties": {
+                "attr-data-events-listening": [],
+                "textContent": "<p>Information about all the registration is displayed here.<\/p>",
+                "id": "399A8089A1E940848A58B0F448CF19B1",
+                "customId": "registrationlist_message"
+            }
+        },
+        {"className": "menu-component"}
+    ],
     "className": "org.joget.apps.userview.model.UserviewPage",
     "properties": {"id": "up-80BA5FB601CD4F9C5F3C7D730C2D9ADD"}
 }
