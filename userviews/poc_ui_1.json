@@ -69,7 +69,7 @@
         "welcomeMessage": "#date.EEE, d MMM yyyy#",
         "name": "User Registration",
         "description": "",
-        "footerMessage": "Powered by Joget",
+        "footerMessage": "Powered by JogetTest",
         "id": "poc_ui_1"
     },
     "setting": {"properties": {
